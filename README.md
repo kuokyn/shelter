@@ -11,10 +11,13 @@
 - Проект был создан на основе гипотетически существующего приюта для бездомных животных.
 - Сервис позволяет ознакомиться с подопечными приюта, а также узнать истории о тех, кто уже нашёл свой дом.
 
-<img src="/src/main/resources/static/images/homepage.png" alt="home_page">
-<br>
-<img src="/src/main/resources/static/images/aboutpage.png" alt="about_page">
-
+<div>
+    <img src="/src/main/resources/static/images/homepage.png" alt="home_page"><br>
+    <img src="/src/main/resources/static/images/petspage.png" alt="pets_page"><br>
+    <img src="/src/main/resources/static/images/aboutpage.png" alt="about_page"><br>
+    <img src="/src/main/resources/static/images/adminpage.png" alt="admin_page"><br>
+    <img src="/src/main/resources/static/images/loginpage.png" alt="login_page"><br>
+</div>
 
 ## Инструменты разработки
 
@@ -41,11 +44,11 @@
 
 ~ *Telegram links* ~
 
-Анна Смирнова - [@terrie_me4]()
+Анна Смирнова - [@terrie_me4](https://telegram.org/)
 
-Александра Асташкина - [@sasha_a02]()
+Александра Асташкина - [@sasha_a02](https://telegram.org/)
 
-Виктория Никифорова - [@kuokyn]()
+Виктория Никифорова - [@kuokyn](https://telegram.org/)
 
 РТУ МИРЭА ИКБО-16-20
 
