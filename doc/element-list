@@ -1,0 +1,6 @@
+com.work.shelter
+com.work.shelter.config
+com.work.shelter.controllers
+com.work.shelter.entity
+com.work.shelter.repo
+com.work.shelter.services

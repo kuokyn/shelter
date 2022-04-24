@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{/css/style.css}">
+    <link rel="stylesheet" href="../static/css/homestyle.css" th:href="@{/css/homestyle.css}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            padding: 0;
+            font-family: 'Rubik Puddles', cursive;
+            font-size: 100px;
+            font-weight: bold;
+            color: #c0729a;
+        }
+        .flex-title{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header th:insert="blocks/header :: header"></header>
+
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="flex-title mx-auto">
+                    <h1 class="fw-light">У меня лапки</h1><br>
+                    <h3 class="fw-light" style="padding: 0;">Счастливые истории</h3>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-responsive" th:src="@{/images/pusha.png}" alt="photo"/>
+                            <div class="card-body">
+                                <h4>Пуша</h4>
+                                <p class="card-text">Маленький комочек большого счастья. Теперь домашняя и любимая всеми членами семьи</p>
+                            </div>
+                            <a href="./pusha" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-responsive" th:src="@{/images/baron.png}" alt="photo"/>
+                            <div class="card-body">
+                                <h4>Барон</h4>
+                                <p class="card-text">Большой черный пёс - не каждый был готов подарить такому дом. Но и для Барона нашлась лучшая семья!</p>
+                            </div>
+                            <a href="./baron" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-responsive" th:src="@{/images/finik.png}" alt="photo"/>
+                            <div class="card-body">
+                                <h4>Финик</h4>
+                                <p class="card-text">У Финика все хорошо, он теперь домашний и любимый :)
+                                        Хозяева Финика прислали нам небольшой привет:
+                                </p>
+                            </div>
+                            <a href="./finik" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-responsive" th:src="@{/images/mandarin.png}" alt="photo"/>
+                            <div class="card-body">
+                                <h4>Мандарин</h4>
+                                <p class="card-text">Уехал домой с выставки проекта</p>
+                            </div>
+                            <a href="./mandarin" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-responsive" th:src="@{/images/blinchik.png}" alt="photo"/>
+                            <div class="card-body">
+                                <h4>Блинчик</h4>
+                                <p class="card-text">Счастливая семья Блинчика прислала нам привет. Мы очень рады им поделиться:</p>
+                            </div>
+                            <a href="./blinchik" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-responsive" th:src="@{/images/sandy.png}" alt="photo"/>
+                            <div class="card-body">
+                                <h4>Сэнди</h4>
+                                <p class="card-text">Уже более полугода дома. Хозяева прислали нам трогательный привет и благодарность:
+                                </p>
+                            </div>
+                            <a href="./sandy" class="btn btn-warning">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer th:insert="blocks/footer :: footer"></footer>
+
+</body>
+</html>

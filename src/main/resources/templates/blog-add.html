@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Наши зверушки</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<header th:insert="blocks/header :: header"></header>
+
+<!--info == anons-->
+
+    <div class="container mt-5 ">
+        <h1 style="padding-bottom: 20px;">Добавить питомца</h1>
+        <form action="/add" method="post">
+            <select type="text" name="breed" class="form-control">
+                <option value="" disabled selected>Тип питомца</option>
+                <option value="Собака">Собака</option>
+                <option value="Кот">Кот</option>
+            </select><br>
+            <input type="number" name="age" placeholder="Возраст" class="form-control"><br>
+            <select type="text" name="sex" class="form-control">
+                <option value="" disabled selected>Пол питомца</option>
+                <option value="Мальчик">Мальчик</option>
+                <option value="Девочка">Девочка</option>
+            </select><br>
+            <input type="text" name="name" placeholder="Кличка" class="form-control"><br>
+            <input type="text" name="info" placeholder="Краткое описание" class="form-control"><br>
+            <textarea name="full_text" placeholder="Полное описание" class="form-control"></textarea><br>
+            <button type="submit" class="btn btn-success">Добавить питомца</button>
+        </form>
+    </div>
+
+
+<div th:insert="blocks/footer :: footer"></div>
+
+</body>
+</html>

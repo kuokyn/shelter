@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Финик</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<header th:insert="blocks/header :: header"></header>
+<div class="container mt-5">
+    <div class="alert alert-info mt-2">
+        <div class="img-center">
+            <img class="img-responsive" th:src="@{/images/finik.png}" alt="photo"/>
+        </div>
+        <h3>Финик</h3><br>
+        <blockquote class="blockquote">
+            <p class="mb-0">
+                <p>Финик вырос. Обожает кушать, очень любопытный, ласковый, всегда готов играть и мурчать.</p>
+                <p>Гладить его нужно обязательно, он по другому не может. Как был в детстве ласкушка, таким и остался.</p>
+                <p>Со старшим котом дружат, играют, облизывают друг друга, в общем не разлей вода. Приятно смотреть.</p>
+            </p>
+            <footer class="blockquote-footer" style="font-size: 18px">Хозяева Финика</footer>
+        </blockquote>
+    </div>
+</div>
+
+
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+</html>

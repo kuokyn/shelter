@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сэнди</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<header th:insert="blocks/header :: header"></header>
+<div class="container mt-5">
+    <div class="alert alert-info mt-2">
+        <div class="img-center">
+            <img class="img-responsive" th:src="@{/images/sandy.png}" alt="photo"/>
+        </div>
+        <h3>Сэнди</h3><br>
+        <blockquote class="blockquote">
+            <p class="mb-0">
+                <p>Хочу поблагодарить Вас за то рыжее счастье , которое мы нашли здесь.</p>
+                <p>История банальная - у меня дочь 12 лет, которая мечтала о собаке.</p>
+                <p>Полгода уговоров, а потом поисков – и мы ее нашли!</p>
+                <p>Случилось это просто - мы приехали в приют, прошли на площадку для выгулов, и увидели ее. В тот момент как в кино, все остальные растворились, и осталась она одна, Наша!</p>
+                <p>Она солнце наше, чудо, радость и любовь. Это самая ласковая, умная, добрая собака на свете.</p>
+                <p>Спасибо огромное девочкам волонтерам Оксане и Марии, они были с нами, помогали, сопровождали и очень переживали. И спасибо всем работникам приюта за чистоту и ухоженность внутри, это дорогого стоит, было с чем сравнить, пока искали.</p>
+                <p>И очень хочу пожелать всем, кто ищет друга в семью- не ищите породу, размер, цвет глаз - ищите сердцем, оно никогда не обманывает!</p>
+                </p>
+            <footer class="blockquote-footer" style="font-size: 18px">Хозяйка Сэнди</footer>
+        </blockquote>
+    </div>
+</div>
+
+
+<div th:insert="blocks/footer :: footer"></div>
+</body>
+</html>

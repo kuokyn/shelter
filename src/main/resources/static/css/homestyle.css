@@ -1,0 +1,21 @@
+.card-text p {
+    font-size: 14px;
+}
+
+.col{
+    padding: 15px;
+}
+
+.card {
+    min-height: 525px;
+}
+.img-responsive{
+    max-height: 300px;
+    object-fit: cover;
+
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+}

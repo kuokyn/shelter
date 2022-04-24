@@ -1,0 +1,15 @@
+<footer th:fragment="footer" class="text-muted py-5" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+    <div class="img-center">
+        <img src="" th:src="@{/images/footerlogo.png}" alt="footerlogo"/>
+    </div>
+    <div class="footer-container" style="display: flex; justify-content: space-evenly; align-items: center">
+        <p class="float-end mb-1">
+            <a href="#">Наверх</a>
+        </p>
+        <p class="mb-1">У меня лапки 2022®</p>
+        <form sec:authorize="isAuthenticated()" action="/auth/logout" method="post">
+            <button id="logout" type="submit">Выйти</button>
+        </form>
+    </div>
+</footer>
