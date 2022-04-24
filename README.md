@@ -1,19 +1,20 @@
 <div id="top"></div>
-<br />
+<br>
 <div align="center">
     <img src="/src/main/resources/static/images/logo.png" alt="Logo">
     <h3>Приют "У меня лапки"</h3>
-    <p>Сервис для ознакомления с прютом.</p>
+    <p>Сервис для ознакомления с приютом</p>
 </div>
 
 ## О проекте
 
-<img src="/src/main/resources/static/images/logo.png" alt="Logo">
-
 - Проект был создан на основе гипотетически существующего приюта для бездомных животных.
 - Сервис позволяет ознакомиться с подопечными приюта, а также узнать истории о тех, кто уже нашёл свой дом.
 
----
+<img src="/src/main/resources/static/images/homepage.png" alt="home_page">
+<br>
+<img src="/src/main/resources/static/images/aboutpage.png" alt="about_page">
+
 
 ## Инструменты разработки
 
@@ -28,8 +29,6 @@
 * [HTML]() - язык разметки документов для просмотра веб-страниц в браузере
 * [CSS]() - формальный язык описания внешнего вида документа, написанного с использованием языка разметки
 
----
-
 
 ## Особенности
 
@@ -37,7 +36,6 @@
 - Возможность ознакомления со "счастливыми историями"
 - Простота размещения новых постов о поступивших животных, которые ищут свой дом (*для админа*)
 
----
 
 ## Авторы
 
@@ -52,5 +50,9 @@
 РТУ МИРЭА ИКБО-16-20
 
 [//]: # (Project Link: [https://github.com/your_username/repo_name]&#40;https://github.com/your_username/repo_name&#41;)
-
+<br>
+<div align="center">
+    <img src="/src/main/resources/static/images/footerlogo.png" alt="footer_logo">
+</div>
+<br>
 <p align="right">(<a href="#top">back to top</a>)</p>
