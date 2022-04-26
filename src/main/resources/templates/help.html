@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Наши зверушки</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <style>
+        .card {
+            border-width: 0px;
+            box-shadow: 0px 10px 15px #d9d9d9;
+        }
+        .img-responsive {
+            max-height: 200px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+
+<header th:insert="blocks/header :: header"></header>
+
+<div class="container mt-5">
+    <h1 style="padding-bottom: 20px;">Как помочь</h1>
+    <h3>Волонтерское движение</h3><br>
+    <div class="row">
+        <div class="card" style="width: 22rem;">
+            <img class="img-responsive card-img-top" th:src="@{/images/cover.png}" alt="...">
+            <div class="card-body">
+                <p class="card-text">
+                    Собакам и кошкам очень важно общение с человеком – социальные навыки помогут им быстрее найти хозяина. Приезжайте поиграть, погулять и просто погладить питомцев!
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 22rem;">
+            <img class="img-responsive card-img-top" th:src="@{/images/cover.png}" alt="...">
+            <div class="card-body">
+                <p class="card-text">
+                    Игрушки, одноразовые пеленки, медикаменты, корма, моющие средства и многое другое нужно животным каждый день. Узнайте, чего не хватает питомцам в ближайшем к вам приюте!
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 22rem;">
+            <img class="img-responsive card-img-top" th:src="@{/images/cover.png}" alt="...">
+            <div class="card-body">
+                <p class="card-text">
+                    Есть желание стать волонтёром? Напишите нам! Мы рады принимать в свои ряды каждого, кто не безразличен к братьям нашим меньшим.
+                </p>
+            </div>
+        </div>
+    </div>
+    <h3>Пожертвования</h3><br>
+</div>
+
+<div th:insert="blocks/footer :: footer"></div>
+
+</body>
+</html>

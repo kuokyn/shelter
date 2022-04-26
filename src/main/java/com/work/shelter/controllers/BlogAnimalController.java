@@ -2,6 +2,7 @@ package com.work.shelter.controllers;
 
 import com.work.shelter.entity.Animal;
 import com.work.shelter.services.HeaderService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -18,16 +19,11 @@ import java.util.ArrayList;
 import java.util.Optional;
 
 @Controller
+@RequiredArgsConstructor
 public class BlogAnimalController {
 
     private final PostRepository postRepository;
     private final HeaderService headerService;
-
-    @Autowired
-    public BlogAnimalController(PostRepository postRepository, HeaderService headerService) {
-        this.postRepository = postRepository;
-        this.headerService = headerService;
-    }
 
     @GetMapping("/blog")
     public String blogAnimal(Model model) {

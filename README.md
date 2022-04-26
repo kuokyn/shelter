@@ -16,6 +16,9 @@
     <img src="/src/main/resources/static/images/petspage.png" alt="pets_page"><br>
     <img src="/src/main/resources/static/images/aboutpage.png" alt="about_page"><br>
     <img src="/src/main/resources/static/images/adminpage.png" alt="admin_page"><br>
+    <img src="/src/main/resources/static/images/articlespage.png" alt="articles_page"><br>
+    <img src="/src/main/resources/static/images/helppage.png" alt="help_page"><br>
+    <img src="/src/main/resources/static/images/contactpage.png" alt="contact_page"><br>
     <img src="/src/main/resources/static/images/loginpage.png" alt="login_page"><br>
 </div>
 
@@ -25,6 +28,7 @@
 * [Spring Boot](https://spring.io/) - Java-фреймворк для создания веб-приложений
 * [Spring Security](https://spring.io/) - Java-фреймворк для построения систем аутентификации и авторизации
 * [Spring Data JPA](https://spring.io/) - Java-библиотека для взаимодействия с сущностями базы данных
+* [Apache Maven](https://maven.apache.org/) — фреймворк для автоматизации сборки проектов
 * [PostgreSQL](https://www.postgresql.org/) - система управления базами данных
 * [Thymeleaf](https://www.thymeleaf.org/) - это шаблонизатор Java HTML
 * [Bootstrap](https://getbootstrap.com/) - фреймворк для создания сайтов и веб-приложений
@@ -52,7 +56,6 @@
 
 РТУ МИРЭА ИКБО-16-20
 
-[//]: # (Project Link: [https://github.com/your_username/repo_name]&#40;https://github.com/your_username/repo_name&#41;)
 <br>
 <div align="center">
     <img src="/src/main/resources/static/images/footerlogo.png" alt="footer_logo">
